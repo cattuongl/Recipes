@@ -163,7 +163,12 @@ Page
 ============
 */
 .page{
-    background: #F79489;
+    /*background: #FADCD9*/
+    width: 90vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (5rem + 4rem))
 }
 /*
 ============
@@ -183,11 +188,12 @@ Footer
     margin-bottom: 0;
 
 }
-
-footer_logo
 /*
 ============
-Footer
+Hero
 ============
 */
-
+.hero{
+    height:40vh;
+    
+}
